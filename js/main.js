@@ -215,14 +215,14 @@
 			directionNav: true,
 			start: function(){
 				setTimeout(function(){
-					$('.slider-text').removeClass('animated fadeInUp');
-					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
+					$('.slider-text').removeClass('animated fadeInRight');
+					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInRight');
 				}, 500);
 			},
 			before: function(){
 				setTimeout(function(){
-					$('.slider-text').removeClass('animated fadeInUp');
-					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
+					$('.slider-text').removeClass('animated fadeInRight');
+					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInRight');
 				}, 500);
 			}
 

@@ -247,9 +247,9 @@ figure {
       #colorlib-hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom center;
+        background-position: top center;
         min-height: 400px;
-        position: relative; }
+        position: center; }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
@@ -302,7 +302,8 @@ figure {
           font-weight: 700; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
-              font-size: 28px; } }
+              font-size: 28px; 
+			  font-family: "Quicksand", Arial, sans-serif;} }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 18px;
           line-height: 1.5;
@@ -449,6 +450,29 @@ body.offcanvas {
     bordeR: 1px solid #000;
     padding: 2px 10px; }
 
+.btn-getstarted{
+  line-height: 45px;
+  text-align: center;
+  position: absolute;
+  border-radius: 20px;
+  bottom: -22.5px;
+  left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+background:    #000000;
+background:    -webkit-linear-gradient(#000000, #a6003d);
+background:    linear-gradient(#333333, #a6003d);
+border:        0px solid #556699;
+border-radius: 1000px;
+box-shadow:    0 0px #444444;
+padding:       10px 20px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal 700 24px/1 "Quicksand", Arial, sans-serif;
+text-align:    center;
+text-shadow:   1px 1px #000000;
+}
+	
 .fancy-collapse-panel .panel-default > .panel-heading {
   padding: 0; }
 
@@ -1427,3 +1451,125 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+  
+  /* --------------------------
+:: 10.0 Testimonials Area CSS
+-------------------------- */
+
+.clients-feedback-area .client-name > h5 {
+    color: #5b32b4;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.clients-feedback-area .star-icon > i {
+    font-size: 18px;
+    color: #f1b922;
+}
+
+.clients-feedback-area .client-description > p {
+    max-width: 1010px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.clients-feedback-area .client > i {
+    font-size: 48px;
+    color: #897ceb;
+    margin-bottom: 30px;
+}
+
+.clients-feedback-area .client-name > p {
+    color: #b5aec4;
+}
+
+.clients-feedback-area .slick-dots {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.clients-feedback-area .slick-dots li button {
+    width: 12px;
+    height: 12px;
+    text-indent: -999999999999999999999999px;
+    border: 3px solid #a49fba;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 5.5px;
+    outline: none;
+}
+
+.clients-feedback-area .slick-dots li.slick-active button {
+    background-color: #fb397d;
+    border-color: #fb397d;
+}
+
+.clients-feedback-area .slick-slide.client-thumbnail {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 129px;
+}
+
+
+.clients-feedback-area .slick-slide img {
+    display: block;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.clients-feedback-area .slick-slide.slick-current img {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.clients-feedback-area .slick-arrow {
+    position: absolute;
+    width: 30px;
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #b5aec4;
+    display: block;
+    line-height: 550%;
+    left: 0;
+    z-index: 90;
+    cursor: pointer;
+}
+
+.clients-feedback-area .slick-arrow.fa-angle-right {
+    left: auto;
+    right: 0;
+    top: 0;
+}
+
+.client-pic{
+  margin: auto;
+  width: 50%;
+  border: 3px solid orange;
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
+}
