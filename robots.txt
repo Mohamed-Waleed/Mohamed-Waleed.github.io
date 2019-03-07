@@ -1,4 +1,4 @@
 User-agent: *
-Dissalow:/nofollow.html
-Noindex:/nofollow.html
+Dissalow:/apply.html
+Noindex:/apply.html
 Sitemap:http://codewaleed.me/sitemap.xml
