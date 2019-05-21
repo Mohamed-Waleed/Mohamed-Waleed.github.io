@@ -36,6 +36,264 @@
 /*----------------------------------------------------
 / 1. Header 01
 ------------------------------------------------------*/
+section p{
+	font-family: 'Roboto Condensed';
+}
+section ul{
+	font-family: 'Roboto Condensed';
+}
+.about p{
+	font-family: 'Overlock', cursive;
+}
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity:0;
+        -webkit-transform: translatey(-10px);
+        -moz-transform: translatey(-10px);
+        -o-transform: translatey(-10px);
+        transform: translatey(-10px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -o-transform: translatey(0);
+        transform: translatey(0);
+    }
+}
+@-moz-keyframes fadeInDown {
+    from {
+        opacity:0;
+        -webkit-transform: translatey(-10px);
+        -moz-transform: translatey(-10px);
+        -o-transform: translatey(-10px);
+        transform: translatey(-10px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -o-transform: translatey(0);
+        transform: translatey(0);
+    }
+}
+.fadeIn-down {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+	animation-delay: 1s;
+}
+.fadeIn-down-two {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+	-webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-duration:2s;
+	animation-delay: 2s;
+}
+.fadeIn-down-three {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+	-webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -o-animation-duration:3s;
+	animation-delay: 3s;
+}
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-10px);
+        -moz-transform: translatex(-10px);
+        -o-transform: translatex(-10px);
+        transform: translatex(-10px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+@-moz-keyframes fadeInLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-10px);
+        -moz-transform: translatex(-10px);
+        -o-transform: translatex(-10px);
+        transform: translatex(-10px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+@keyframes fadeInLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-100px);
+        -moz-transform: translatex(-100px);
+        -o-transform: translatex(-100px);
+        transform: translatex(-100px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+.fadeIn-left {
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration:1s;
+    animation-delay: 1s;
+}
+.fadeIn-left-two {
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-duration:2s;
+    animation-delay: 2s;
+}.fadeIn-left-three {
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -o-animation-duration:3s;
+    animation-delay: 3s;
+}
+@keyframes fadeIn{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+.fade{
+	-webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration:1s;
+    animation-delay: 1s;
+}
+.fade-two{
+	-webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-duration:2s;
+    animation-delay: 2s;
+}
+.fade-three{
+	-webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -o-animation-duration:3s;
+    animation-delay: 3s;
+}
+.black-text{
+	color: Black;
+}
+.ultra{
+	font-family: 'Iceland';
+}
+
 .header_01{
     position: absolute;
     left: 0;
@@ -43,7 +301,7 @@
     width: 100%;
     z-index: 5;
     background: transparent;
-    border-bottom: 2px solid rgba(255, 255, 255, .10);
+   /* border-bottom: 2px solid rgba(255, 255, 255, .10); */
 }
 .navi{
     display: inline-block;
@@ -53,11 +311,15 @@
     text-align: left;
     padding: 0 0 39px;
 }
+.logo a{
+	max-width:40%
+}
 .logo img{
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
 }
 .mainmenu{
+	top: 20px;
     position: relative;
 }
 .mainmenu ul{
@@ -431,9 +693,10 @@
 .ab_img1 img{
     max-width: 100%;
     height: auto;
-    -webkit-box-shadow: -2px 4px 30px 0px rgba(0, 0, 0, 0.3);
+	margin-top: 50px;
+   /* -webkit-box-shadow: -2px 4px 30px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow:    -2px 4px 30px 0px rgba(0, 0, 0, 0.3);
-    box-shadow:         -2px 4px 30px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:         -2px 4px 30px 0px rgba(0, 0, 0, 0.3); */
 }
 .ab_img2{
     position: absolute;
@@ -1105,10 +1368,11 @@
     margin: 0 0 49px;
 }
 .testimonial_content h2{
+	font-style: italic;
+	font-family: "Serif";
     font-size: 50px;
     line-height: 62px;
     letter-spacing: 2px;
-    text-transform: uppercase;
     color: #fff;
     margin: 0 0 44px;
 }
@@ -1116,12 +1380,87 @@
     color: #e62b4a;
 }
 .testimonial_content p{
+	font-family: "Sans Serif";
     font-size: 20px;
     color: #fff;
     letter-spacing: 0.80px;
     margin: 0;
 }
 
+.philosophy{
+	background-color: White;
+}
+.philosophy_content{
+    position: relative;
+    text-align: center;
+    padding: 0;
+}
+.prequalify{
+	position: relative;
+    text-align: left;
+    padding: 0 25px;
+	color: Black;
+}
+.prequalify li{
+	list-style: square;
+}
+.philosophy_content h2{
+    font-size: 50px;
+    line-height: 62px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0 0 44px;
+}
+.philosophy_content h1{
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0 0 44px;
+}
+.philosophy_content span{
+    color: #e62b4a;
+}
+.philosophy_content p{
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 0.80px;
+    margin: 0;
+}
+.about_message h2{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0 0 44px;
+}
+.about_message span{
+    color: #e62b4a;
+}
+.about_message p{
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 0.80px;
+    margin: 0;
+}
+.story{
+    background: url(../images/bg/8.jpg) no-repeat fixed center / cover;
+    padding-bottom: 113px;
+}
+.story_content{
+    position: relative;
+    text-align: center;
+    padding: 0 25px;
+}
+.story_content p{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0.80px;
+    margin: 0;
+}
 /*----------------------------------------------------
 / 12. Blog Section
 ------------------------------------------------------*/
@@ -1752,78 +2091,45 @@
 }
 
 /*----------------------------------------------------
-/ 20. Google Map Section
-------------------------------------------------------*/
-.gmapsection{
-    position: relative;
-}
-.gmap{
-    width: 100%;
-    height: 609px;
-}
-.btn_link{
-    position: relative;
-    width: 100%;
-    line-height: .8;
-}
-.btn_link a{
-    display: inline-block;
-    width: 100%;
-    height: 143px;
-    line-height: .8;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 24px;
-    color: #fff;
-    letter-spacing: 0.96px;
-    background: #e62b4a;
-    padding: 61px 0;
-}
-.btn_link a:hover{
-    background: #000;
-    color: #fff;
-}
-.btn_link.bg_black a{
-    background: #000;
-}
-.btn_link.bg_black a:hover{
-    background: #e62b4a;
-}
-
-/*----------------------------------------------------
 / 21. About Page
 ------------------------------------------------------*/
-.pageBanner {
+.aboutBanner {
     position: relative;
-    min-height: 465px;
-    background: url(../images/bg/banner.png) no-repeat center center / cover;
-    padding-top: 224px;
+    min-height: 350px;
+    padding: 100px 20px 0;
 }
-.banner_content{
-    position: relative;
-}
-.banner_content h4{
-    color: #fff;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 1.8px;
+.story_title_black{
+	font-size: 12px;
+    line-height: .8;
+    font-weight: 400;
+    color: White;
+    letter-spacing: 1.2px;
     text-transform: uppercase;
-    margin: 0 0 12px;
+    margin: 0 0 5px;
 }
-.banner_content h4 a{
-    color: #fff;
-    display: inline-block;
+.aboutBanner_content{
+	background: White;
+	padding: 0;
+	margin: 0;
+    position: relative;
 }
-.banner_content h4 a:hover{
-    color: #000;
+.aboutBanner_content p{
+	padding: 10px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
-.banner_content h2 {
-    font-size: 70px;
-    line-height: 1;
-    font-weight: 700;
-    letter-spacing: 2.8px;
+.hey{
+	padding: 10px;
+	bottom: 0;
+	margin: 7px;
+	max-height: 100px;
+	float: left;
+}
+.aboutBanner_content h1 {
+	padding: 10px;
+	padding-top: 60px;
+    font-size: 30px;
     margin: 0;
-    color: #FFF;
+    color: #000;
     text-transform: uppercase;
 }
 .agency_img1{
@@ -1913,6 +2219,45 @@
 /*----------------------------------------------------
 / 22. Service Page
 ------------------------------------------------------*/
+.pageBanner {
+    position: relative;
+    min-height: 465px;
+    background: url(../images/bg/banner.jpg) no-repeat center center / cover;
+    padding-top: 224px;
+}
+.aboutPageBanner {
+    position: relative;
+    min-height: 465px;
+    background: White;
+    padding-top: 224px;
+}
+.banner_content{
+    position: relative;
+}
+.banner_content h4{
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin: 0 0 12px;
+}
+.banner_content h4 a{
+    color: #fff;
+    display: inline-block;
+}
+.banner_content h4 a:hover{
+    color: #000;
+}
+.banner_content h2 {
+    font-size: 70px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    margin: 0;
+    color: #FFF;
+    text-transform: uppercase;
+}
 .service_detail{
     padding-bottom: 82px;
 }
@@ -2637,6 +2982,24 @@ textarea.input-form:focus{
 }
 .meipaly_tagcloude_widget a:hover{
     color: #000;
+}
+.half_width_left{
+	width: 48%;
+}
+.half_width_right{
+	width: 48%;
+}
+.area_code{
+	width: 28%;
+}
+.phone{
+	width: 68%;
+}
+.checky{
+	margin-right: 10%;
+}
+.inline{
+	display: inline-block;
 }
 
 /*----------------------------------------------------

@@ -55,17 +55,17 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.mei-settings:before { content: '\e800'; } /* '' */
-.mei-team:before { content: '\e801'; } /* '' */
-.mei-transfer:before { content: '\e802'; } /* '' */
-.mei-web-design:before { content: '\e805'; } /* '' */
-.mei-app-development:before { content: '\e804'; } /* '' */
-.mei-computer-graphic:before { content: '\e807'; } /* '' */
-.mei-development-1:before { content: '\e806'; } /* '' */
-.mei-development:before { content: '\e803'; } /* '' */
-.mei-pie-chart:before { content: '\e808'; } /* '' */
-.mei-menu:before { content: '\e809'; } /* '' */
-.mei-production:before { content: '\e80a'; } /* '' */
-.mei-project-management:before { content: '\e80b'; } /* '' */
-.mei-advertising:before { content: '\e80c'; } /* '' */
-.mei-magnifying-glass:before { content: '\e80d'; } /* '' */
+.mei-settings:before { content: '\e800'; }
+.mei-team:before { content: '\e801'; }
+.mei-transfer:before { content: '\e802'; }
+.mei-web-design:before { content: '\e805'; }
+.mei-app-development:before { content: '\e804'; }
+.mei-computer-graphic:before { content: '\e807'; }
+.mei-development-1:before { content: '\e806'; }
+.mei-development:before { content: '\e803'; }
+.mei-pie-chart:before { content: '\e808'; }
+.mei-menu:before { content: '\e809'; }
+.mei-production:before { content: '\e80a'; }
+.mei-project-management:before { content: '\e80b'; }
+.mei-advertising:before { content: '\e80c'; }
+.mei-magnifying-glass:before { content: '\e80d'; }

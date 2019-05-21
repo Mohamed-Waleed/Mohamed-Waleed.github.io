@@ -631,8 +631,8 @@ License URI:
             {
                 $.ajax({
                     type: "POST",
-                    url: 'ajax/mail.php',
-                    data: {f_name: f_name, l_name: l_name, email: email, phone: phone, message: message},
+                    url: 'https://formspree.io/gmwaleed@hotmail.com',
+//                    data: {f_name: f_name, l_name: l_name, email: email, phone: phone, message: message},
                     success: function(data)
                     {
                         //alert(data);

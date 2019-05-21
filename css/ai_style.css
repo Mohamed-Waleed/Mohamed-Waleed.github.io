@@ -1,0 +1,73 @@
+/*================================================
+[  Table of contents  ]
+================================================
+1  Header
+2  Banner
+3  Feature
+/*---------------------------------------------------------------------
+2 Banner
+-----------------------------------------------------------------------*/
+.banner { padding: 200px 90px 65px 90px; position: relative;overflow: hidden; }
+.button-banner:hover, .button-banner:focus { background-color: #ffffff; }
+.banner .banner-text { padding-top: 15%; position: relative;}
+.iq-video{border: 1px solid #e62b4a; display: inline-block; width: 48px; height: 48px; text-align: center; font-size: 29px; color: #e62b4a;border-radius: 100%; line-height: 1.6; margin-left:20px; background-color: #ffffff; }
+.iq-video i{ margin-left: 5px;}
+.banner:before{content: '';position: absolute; background: url('../images/banner/shap.png') ; width:70%;height: 70%; background-repeat: no-repeat; left: 0; top: 41%; -webkit-animation: bounce 2s infinite alternate;}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-25px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-25px);
+  }
+}
+
+.banner-type:before{content: '';position: absolute; background: url('../images/banner/banner-shap.png') ; width:70%;height: 70%; background-repeat: no-repeat; right: -63%; top: -30%; -webkit-animation: bounce 2s infinite alternate;}
+
+/*---------------------------------------------------------------------
+List Style
+-----------------------------------------------------------------------*/
+.list-style li { margin: 0 0 15px; padding: 0; list-style: none; font-size: 16px; }
+.list-style li:last-child { margin-bottom: 0; }
+.list-style li i { margin-right: 10px; font-size: 18px; }
+.easy-btn { padding: 10px 70px; }  
+
+/*---------------------------------------------------------------------
+3 Future Services
+---------------------------------------------------------------------*/
+.services-block { position: relative; }
+.services-block:before { background: #e62b4a; content: ""; height: 85%; left: 0; position: absolute; bottom: 0; width: 100%; z-index: -1; }
+.services-bg { padding-top: 80px; border-radius: 5px; background: #fff; -webkit-box-shadow: 0px 0px 30px 0px rgba(108, 99, 255, 0.2); -moz-box-shadow: 0px 0px 30px 0px rgba(108, 99, 255, 0.2); box-shadow: 0px 0px 30px 0px rgba(108, 99, 255, 0.2); }
+.future-services {top:0; padding: 30px 30px 30px 30px; position: relative; transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; }
+.future-services:hover{top: -8px; box-shadow: 0px 1px 30px 0px rgba(70, 200, 148, 0.25); background: #ffffff;}
+.services-list { margin: 0 0 -120px; padding: 0; position: relative; display: inline-block; width: 100%; }
+.services-list li{ list-style: none; margin: 0; padding: 0; float: left; }
+.services-list li.one { position: absolute; left: 30px; bottom: 0;  }
+.services-list li.two { position: absolute; right: 100px; bottom: 0;  }
+
+/*---------------------------------------------------------------------
+7 Counter and shap
+---------------------------------------------------------------------*/
+.counter{padding: 60px 0;}
+.iq-counter3 .iq-counter .timer { font-size: 70px; }
+.iq-pt-30{padding-top:25px;}
+.Get-tips-tricks .tips-img img{max-width: 120%; }
+.service-provide .services{padding: 30px 30px 30px 30px;}
+.conection-shap{position: relative; overflow: hidden;}
+.conection-shap:before{content: '';position: absolute; background: url('../images/banner/conection-shap.png') ; width:21%;height: 56%; background-repeat: no-repeat; right:0; top: 41%;-webkit-animation: bounce 2s infinite alternate; }
+.finding-shap{margin-top: 75px;padding-bottom:: 75px;position: relative;overflow: hidden;}
+.finding-shap:before{content: '';position: absolute; background: url('../images/banner/finding-shap.png') ; width:38%;height: 83%; background-repeat: no-repeat; left:0; top: 25%; left: -47px; -webkit-animation: bounce 2s infinite alternate;}
+.tricks-shap{position: relative; overflow: hidden;}
+.tricks-shap:before{content: '';position: absolute; background: url('../images/banner/tricks-shap.png') ; width:7%;height: 64%; background-repeat: no-repeat; right:0; top: 25%; -webkit-animation: bounce 2s infinite alternate; }
+.Service-shap{position: relative; overflow: hidden;}
+.Service-shap:before{content: '';position: absolute; background: url('../images/banner/service-shap.png') ; width:23%;height: 55%; background-repeat: no-repeat; left:0; bottom:0; -webkit-animation: bounce 2s infinite alternate;}
+.iq-clients{position: relative; overflow: hidden;}
+.iq-clients:before{content: '';position: absolute; background: url('../images/banner/footer-shap.png') ; width:15%;height: 89%; background-repeat: no-repeat; right:0; -webkit-animation: bounce 2s infinite alternate;}
